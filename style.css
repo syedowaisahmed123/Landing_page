@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    padding: 0 15px;
+}
+
+#introduction,
+#features,
+#call-to-action {
+    padding: 50px 0;
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Ensures images are displayed as block elements */
+    margin: 0 auto; /* Centers images horizontally */
+}
+
+/* Added styles to ensure all images have the same height */
+.feature img {
+    height: 250px; /* Set the desired height for the images */
+    object-fit: cover; /* Ensures the image covers the specified height */
+}
